@@ -1,0 +1,16 @@
+{
+    "name": "cat-project",
+    "version": "1.0.0",
+    "packageManager": "npm@10.7.0",
+    "scripts": {
+      "build": "turbo run build",
+      "dev": "turbo run dev",
+      "test": "turbo run test"
+    },
+    "devDependencies": {
+      "turbo": "^2.4.2"
+    },
+    "workspaces": [
+      "packages/*"
+    ]
+  }
